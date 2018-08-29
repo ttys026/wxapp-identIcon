@@ -1,7 +1,7 @@
 var Identicon = require('./identicon.js');
 var HashTool = require('./hash.js').sha256;
 
-function getAvatar(hash, size){
+function getAvatar(hash, size=420){
   var options = {
     // foreground: [0, 0, 0, 255],
     background: [255, 255, 255, 255],
